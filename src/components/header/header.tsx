@@ -5,16 +5,16 @@ import bell from '../../assets/Bell.png';
 import point from '../../assets/Point.png'
 
 const Header = () => {
-    return(
+    return (
         <div className="header_wrap">
             <div className="location">
                 <div><img src={location} alt="location_icon" /></div>
                 <div className="city">Semarang</div>
-                <div><img src={downArr} alt="down_arrow" /></div>
+                <div><img src={downArr} alt="down_arrow" className='down_arr' /></div>
             </div>
             <div className="bell">
                 <img src={bell} alt="bell_icon" />
-                <img src={point} alt="" />
+                <img src={point} alt="" className='point' />
             </div>
         </div>
     )

@@ -1,0 +1,18 @@
+.forecast {
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    min-width: 220px;
+    min-height: 64px;
+    border-radius: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #444E72;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+    .up_arr {
+        position: absolute;
+        margin-left: 10px;
+    }
+}

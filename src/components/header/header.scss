@@ -1,3 +1,31 @@
 .header_wrap {
-    background-color: indigo;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .location {
+        display: flex;
+
+        img {
+            margin-right: 6px;
+        }
+
+        .down_arr {
+            margin: 0;
+            margin-top: 4px;
+        }
+
+        .city {
+            color: #fff;
+            font-weight: 700;
+            font-size: 24px;
+            margin-right: 17px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+    }
+
+    .point {
+        position: absolute;
+        right: 30px;
+    }
 }

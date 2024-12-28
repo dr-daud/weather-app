@@ -1,0 +1,94 @@
+.weather_icon {
+    .sun {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.main_info_wrap {
+    background-color: rgb(255, 255, 255, 0.4);
+    border: solid, #fff, 1px;
+    border-radius: 15px;
+    padding: 17px 26px;
+
+    .date {
+        margin: 0 auto;
+        color: #fff;
+        font-weight: 400;
+        font-size: 18px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        text-align: center;
+    }
+
+    .temperature {
+        margin: 0 auto;
+        margin-top: 20px;
+        color: #fff;
+        font-weight: 400;
+        font-size: 100px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        text-align: center;
+    }
+
+    .weather {
+        margin: 0 auto;
+        margin-top: 10px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 24px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        text-align: center;
+    }
+
+    .wind_wrap {
+        margin: 0 auto;
+        margin-top: 27px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 199px;
+
+        .wind_descr {
+            max-height: 21px;
+            padding-right: 25px;
+            color: #fff;
+            font-weight: 400;
+            font-size: 18px;
+            border-right: 1px solid rgb(255, 255, 255);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .wind_speed {
+            color: #fff;
+            font-weight: 400;
+            font-size: 18px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+    }
+
+    .hum_wrap {
+        margin: 0 auto;
+        margin-top: 18px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 199px;
+
+        .hum_descr {
+            max-height: 21px;
+            padding-right: 25px;
+            color: #fff;
+            font-weight: 400;
+            font-size: 18px;
+            border-right: 1px solid rgb(255, 255, 255);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .hum_percent {
+            color: #fff;
+            font-weight: 400;
+            font-size: 18px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+    }
+}
