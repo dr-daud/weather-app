@@ -1,4 +1,13 @@
 .app {
     padding: 59px 30px 36px 30px;
     background: linear-gradient(0deg, rgba(76, 145, 208, 1) 0%, rgba(47, 136, 255, 1) 23%, rgba(28, 160, 187, 1) 42%, rgba(0, 212, 255, 1) 100%);
+    min-height: 896px;
+}
+
+.error {
+    margin-top: 50px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
 }
